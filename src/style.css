@@ -26,6 +26,7 @@
 
 .card--container {
   display: flex;
+  margin-right: 1rem;
 }
 
 .card--img {
@@ -45,6 +46,7 @@
 
 .card--url {
     padding-left: 1rem;
+    font-size: .8rem;
 }
 
 .card--title {
