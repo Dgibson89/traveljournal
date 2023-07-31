@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.nav--container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-height: 3.43rem;
+  background-color: #2b2929;
+  color: #fff;
+  padding: 2rem 0;
+  margin-bottom: 2rem;
+}
+
+.nav--img {
+  max-width: 2.5rem;
+  max-height: 2.5rem;
+}
+
+.nav--title {
+  font-size: 1.3rem;
+  font-family: "Creepster", cursive;
+}
+
+.card--container {
+  display: flex;
+}
+
+.card--img {
+  width: 7.8125rem;
+  height: 10.5rem;
+  flex-shrink: 0;
+  border-radius: 0.5rem;
+  margin-top: 1rem;
+  margin-left: 2rem;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+}
+
+.card--location {
+    padding: 1rem 2rem .5rem 0;
+}
+
+.card--url {
+    padding-left: 1rem;
+}
+
+.card--title {
+}
+
+.card--date {
+    font-size: .8rem;
+    padding: .5rem 0;
+}
+
+.card--description {
+
+}
