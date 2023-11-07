@@ -10,7 +10,7 @@ Dependencies:
 I believe the only dependencies would have been to use create-react-app and to import react and react-dom.
 
 Build/Deploy Instructions:
-To start the build, I ran "npm run build" within my VS Codes terminal. From there I imported the code from Github to Netlify to have it deployed for viewing.
+To start the build, I ran "npm run build" within my VS Codes terminal. From there I imported the code from Github to Vercel to have it deployed for viewing.
 
 
 
