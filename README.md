@@ -1,3 +1,19 @@
+Altering the ReadME file is a new concept for me but I will do my best.
+
+Purpose:
+The purpose of this app is to display all the places that I would like to visit in the future. 
+
+Functions:
+Itis a static page that displays information regarding haunted areas I would like to visit in my lifetime. I was learning how to utilize the ap function to display an array of data.
+
+Dependencies:
+I believe the only dependencies would have been to use create-react-app and to import react and react-dom.
+
+Build/Deploy Instructions:
+To start the build, I ran "npm run build" within my VS Codes terminal. From there I imported the code from Github to Netlify to have it deployed for viewing.
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
