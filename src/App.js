@@ -1,9 +1,9 @@
 import React from "react";
 import Navbar from "./components/Navbar";
 import data from "./data/data";
-import "./style.css"
+import "./style.css";
 import DisplayCards from "./components/DisplayCards";
-import 'bootstrap/dist/css/bootstrap.min.css';
+import "bootstrap/dist/css/bootstrap.min.css";
 
 const App = () => {
   const cards = data.map((item) => {
@@ -13,7 +13,6 @@ const App = () => {
     <>
       <Navbar />
       <section>{cards}</section>
-
     </>
   );
 };
