@@ -3,15 +3,22 @@
   margin: 0;
 }
 
-.nav--container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  max-height: 3.43rem;
+html {
   background-color: #2b2929;
-  color: #fff;
-  padding: 2rem 0;
-  margin-bottom: 2rem;
+}
+
+section {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-gap: 20px;
+  padding: 20px;
+  background-color: #2b2929;
+}
+
+@media (max-width: 600px) {
+  section {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  }
 }
 
 .nav--img {
@@ -30,33 +37,28 @@
 }
 
 .card--img {
-  width: 7.8125rem;
-  height: 10.5rem;
+  width: auto;
+  height: 12rem;
   flex-shrink: 0;
   border-radius: 0.5rem;
-  margin-top: 1rem;
-  margin-left: 2rem;
-  margin-right: 1rem;
-  margin-bottom: 1rem;
 }
 
 .card--location {
-    padding: 1rem 2rem .5rem 0;
+  padding: 1rem 2rem 0.5rem 0;
 }
 
 .card--url {
-    padding-left: 1rem;
-    font-size: .8rem;
+  padding-left: 1rem;
+  font-size: 0.8rem;
 }
 
 .card--title {
 }
 
 .card--date {
-    font-size: .8rem;
-    padding: .5rem 0;
+  font-size: 0.8rem;
+  padding: 0.5rem 0;
 }
 
 .card--description {
-
 }
